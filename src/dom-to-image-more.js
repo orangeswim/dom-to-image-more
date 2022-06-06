@@ -858,7 +858,7 @@
                         backgroundNode.style.setProperty(
                             'background',
                             inlined,
-                            background
+                            backgroundNode.style.getPropertyPriority('background')
                         );
                     })
                     .then(function() {
